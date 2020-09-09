@@ -1,0 +1,17 @@
+<tr class="form-group" *ngIf="categories">
+  <label data-cy="categorie">Categorie</label>
+</tr>
+
+<tr *ngFor="let categorie of categories" class="form-check">
+  <input
+    class="form-check-input"
+    type="checkbox"
+    value="{{ categorie.value }}"
+    id="{{ categorie.value }}"
+    name="categorie"
+    novalidate=""
+  />
+  <label class="form-check-label" for="{{ categorie.value }}">
+    {{ categorie.name }}
+  </label>
+</tr>

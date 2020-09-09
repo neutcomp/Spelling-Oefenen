@@ -1,0 +1,10 @@
+<div class="form-group row">
+    <label for="firstname" class="col-sm-2 col-form-label" data-cy="je-naam">Je naam</label>
+    <div class="col-sm-3">
+        <input class="form-control form-control-sm" type="text" id="firstname" data-cy="voornaam" required=""
+            [value]="firstname | convertToSpaces: '-'">
+        <div class="invalid-feedback" data-cy="voornaam-validatie">
+            Geef een naam op alstublief
+        </div>
+    </div>
+</div>
