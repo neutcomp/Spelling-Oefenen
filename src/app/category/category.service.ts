@@ -10,7 +10,7 @@ import { catchError, tap } from 'rxjs/operators'
 })
 
 export class CategoryService {
-  private categoryUrl = 'api/questions.json'
+  private categoryUrl = 'api/categories.json'
 
   constructor(private http: HttpClient) { }
 
