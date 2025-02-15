@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { AmountService } from './amount.service';
 
 @Component({
-  selector: 'vk-amount',
-  templateUrl: './amount.component.html',
-  styleUrls: ['./amount.component.scss']
+    selector: 'vk-amount',
+    templateUrl: './amount.component.html',
+    styleUrls: ['./amount.component.scss'],
+    standalone: false
 })
 
 export class AmountComponent implements OnInit {

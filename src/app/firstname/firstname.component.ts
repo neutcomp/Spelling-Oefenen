@@ -3,9 +3,10 @@ import { Component, OnInit } from '@angular/core';
 import { FirstnameService } from './firstname.service';
 
 @Component({
-  selector: 'vk-firstname',
-  templateUrl: './firstname.component.html',
-  styleUrls: ['./firstname.component.scss']
+    selector: 'vk-firstname',
+    templateUrl: './firstname.component.html',
+    styleUrls: ['./firstname.component.scss'],
+    standalone: false
 })
 
 export class FirstnameComponent implements OnInit {

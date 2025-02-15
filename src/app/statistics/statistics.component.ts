@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'vk-statistics',
-  template: `
+    selector: 'vk-statistics',
+    template: `
     <p>
       statistics works!
     </p>
   `,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class StatisticsComponent implements OnInit {
 

@@ -3,9 +3,10 @@ import { CategoryService } from './category.service';
 import { ICategory } from './category';
 
 @Component({
-  selector: 'vk-category',
-  templateUrl: './category.component.html',
-  styleUrls: ['./category.component.scss']
+    selector: 'vk-category',
+    templateUrl: './category.component.html',
+    styleUrls: ['./category.component.scss'],
+    standalone: false
 })
 
 export class CategoryComponent implements OnInit {
